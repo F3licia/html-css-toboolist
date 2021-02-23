@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+header {
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    
+    
+}
+body {
+    background-color: beige;
+    margin: 0px;
+   
+}
+
+.wrapper{
+    margin: 50px;
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    
+
+}
