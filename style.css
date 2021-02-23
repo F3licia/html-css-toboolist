@@ -1,13 +1,12 @@
 * {
-    
     box-sizing: border-box;
     font-family: Arial;
 }
 
 header {
     width: 100%;
-    padding: 10px 0px 20px 40px;
-    display: inline-block;
+    height: 90px;
+    padding: 20px 0px 20px 40px;
     background-color: white;
     font-size: 40px;
     font-weight: 700;
@@ -15,10 +14,40 @@ header {
 }
 
 
+  .mainbox{
+    display: inline;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    }
+
+    #mainbox-left{
+    float:left;
+    width: 50px;
+    height: 50px;
+    }
+
+    #mainbox-right{
+    text-align: left;
+    padding-left: 5px;
+    float:left;
+    width: calc(100% - 50px);
+    height: 50px;
+    }
+
+    #mainbox-left img {
+    width: 100%;
+    }
+
+
+
 body {
     background-color: whitesmoke;
     margin: 0px; 
 }
+
 
 
 .wrapper {
@@ -28,18 +57,18 @@ body {
 }
 
 
-.container{
+  .container{
     padding: 30px;
     background-color: white;
-   
-}
+    margin-bottom: 40px; 
+    }
 
 
-#main.container {
+    #main.container {
     padding: 20px 30px 10px 30px;
     background-color: white;
     margin: 50px 0px 3px 0px;  
-}
+    }
 
 
 
@@ -48,65 +77,50 @@ body {
     padding: 5px 10px ;
     border-radius: 5px;
 }
-    
-
-   #button-1 {
+    #button-1 {
     color: white;
     border: none;
     background-color:  #47adf1;
-}
+    }
 
    #button-2 {
     color:gray;
     border: 1px solid lightgray;
     background-color: white;
-}
+    }
 
 
+ul li{ 
+        margin: 10px -30px;
+        padding: 0;
+        list-style: none;       
+    }
 
+    li.yes:before {
+    content: ' \2713'; 
+    padding-right: 8px;
+    color: #64c0a9;
+    }
 
+    li.no:before {
+    content: ' X'; 
+    padding-right: 8px;
+    color: #d863a1;
+    }
 
-
-
-.fancy-button{
+  .fancy-button{
     font-size: 10px;
     color: white;
     padding: 5px 10px ;
     border-radius: 30px;
     box-shadow: none;
     border: 0px;
-}
-ul li{ 
-        margin: 10px -30px;
-        padding: 0;
-        list-style: none;       
-}
+    }
 
-
-  li.yes:before {
-    content: ' \2713'; 
-    padding-right: 8px;
-    color: #64c0a9;
-  }
-
-  
-  li.no:before {
-    content: ' X'; 
-    padding-right: 8px;
-    color: #d863a1;
-  }
-
-
-
-
-
-
-  h3::before{
+h3::before{
       content: ' \25BC';
-  }
+}
 
-
-  
 .fancy-button.blue{
     background-color: #47adf1;
 }
