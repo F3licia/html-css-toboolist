@@ -30,7 +30,9 @@ body {
 
 
 #main.container {
+    padding: 20px 30px 10px 30px;
     background-color: white;
     margin: 50px 0px 3px 0px;
    
 }
+
