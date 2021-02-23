@@ -1,12 +1,17 @@
 * {
-    box-sizing: border-box;  
+    
+    box-sizing: border-box;
+    font-family: Arial;
 }
-
 
 header {
     width: 100%;
+    padding: 10px 0px 20px 40px;
     display: inline-block;
-    background-color: white;   
+    background-color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
 }
 
 
@@ -17,6 +22,7 @@ body {
 
 
 .wrapper {
+    color: dimgray;
     width: 1000px;
     margin: auto;
 }
@@ -32,7 +38,91 @@ body {
 #main.container {
     padding: 20px 30px 10px 30px;
     background-color: white;
-    margin: 50px 0px 3px 0px;
-   
+    margin: 50px 0px 3px 0px;  
 }
 
+
+
+
+.regular-button{
+    padding: 5px 10px ;
+    border-radius: 5px;
+}
+    
+
+   #button-1 {
+    color: white;
+    border: none;
+    background-color:  #47adf1;
+}
+
+   #button-2 {
+    color:gray;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.fancy-button{
+    font-size: 10px;
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 30px;
+    box-shadow: none;
+    border: 0px;
+}
+ul li{ 
+        margin: 10px -30px;
+        padding: 0;
+        list-style: none;       
+}
+
+
+  li.yes:before {
+    content: ' \2713'; 
+    padding-right: 8px;
+    color: #64c0a9;
+  }
+
+  
+  li.no:before {
+    content: ' X'; 
+    padding-right: 8px;
+    color: #d863a1;
+  }
+
+
+
+
+
+
+  h3::before{
+      content: ' \25BC';
+  }
+
+
+  
+.fancy-button.blue{
+    background-color: #47adf1;
+}
+
+.fancy-button.green{
+    background-color: #b0c926;
+}
+.fancy-button.pink{
+    background-color: #d863a1;
+}
+.fancy-button.orange{
+    background-color: #f29e33;
+}
+.fancy-button.lightgreen{
+    background-color: #64c0a9;
+}
+.fancy-button.purple{
+    background-color: #9c72e4;
+}

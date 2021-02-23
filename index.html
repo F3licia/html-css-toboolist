@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     
 <header id="header">
-   <img src="img/Logo.png" alt="">
-   <span>Toobolist</span>
+   <img id="logo" src="img/Logo.png" alt="">
+   <span id="name">Toboolist</span>
 </header>
     
 <div class="wrapper">
 
  <div id="main" class="main container">
-     <button class="button-type-1">Add Task</button>
-     <button class="button-type-1">Add Section</button>
+     <button class="regular-button" id="button-1">Add Task</button>
+     <button class="regular-button" id="button-2">Add Section</button>
  </div>
 
 
@@ -26,47 +27,46 @@
 
      <h3>New Task</h3>
       <ul> 
-          <li>Quatterly Newsletter
-             <button class="fancy-button">Editorial</button>
-          </li> 
+          <li class="yes"> Quatterly Newsletter
+             <button class="fancy-button blue">Editorial</button>
+          </li>
       </ul>
 
      <h3>Today</h3>
       <ul>
-        <li>Recruiting blog post
-             <button class="fancy-button">Editorial</button>
+        <li class="yes">Recruiting blog post
+             <button class="fancy-button blue">Editorial</button>
         </li>
 
-        <li>Mobile app Lounch
-             <button class="fancy-button">Editorial</button>
+        <li class="yes">Mobile app Lounch 
+             <button class="fancy-button purple">Editorial</button>
+       </li>
+
+        <li class="no"> Interview Jhon H.
+             <button class="fancy-button lightgreen">Editorial</button>
         </li>
 
-        <li>Interview Jhon H.
-             <button class="fancy-button">Editorial</button>
+        <li class="yes">Summit Update to Mobile storefronts
+             <button class="fancy-button orange">Editorial</button>
         </li>
-
-        <li>Summit Update to Mobile storefronts 
-             <button class="fancy-button">Editorial</button>
-        </li>
+        
      </ul>
     
 
      <h3>Upcoming</h3>
         <ul>
-          <li>Schedule meeting with Alex
-             <button class="fancy-button">Editorial</button>
+          <li class="no">Schedule meeting with Alex</li>
+
+          <li class="yes">Homepage refresh
+             <button class="fancy-button pink">Editorial</button>
           </li>
 
-          <li>Homepage refresh
-             <button class="fancy-button">Editorial</button>
+          <li class="yes">Onboard new Sales team members
+             <button class="fancy-button green">Editorial</button>
           </li>
 
-          <li>Onboard new Sales team members
-             <button class="fancy-button">Editorial</button>
-          </li>
-
-          <li>Review editorial calendar
-             <button class="fancy-button">Editorial</button>
+          <li class="yes">Review editorial calendar
+             <button class="fancy-button blue">Editorial</button>
           </li>
       </ul>
   </div>
