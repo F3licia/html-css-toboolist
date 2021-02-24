@@ -1,46 +1,30 @@
-* {
+* { 
+    margin: 0px;
     box-sizing: border-box;
     font-family: Arial;
 }
 
 header {
     width: 100%;
-    height: 90px;
+    height: 100px;
     padding: 20px 0px 20px 40px;
     background-color: white;
-    font-size: 40px;
     font-weight: 700;
-    margin: 0px;
+   ;
 }
 
-
-  .mainbox{
-    display: inline;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    width: 200px;
-    height: 200px;
+  #mainlogo{
+    vertical-align: middle;
     }
 
-    #mainbox-left{
-    float:left;
-    width: 50px;
-    height: 50px;
-    }
-
-    #mainbox-right{
-    text-align: left;
-    padding-left: 5px;
-    float:left;
-    width: calc(100% - 50px);
-    height: 50px;
+    h1{
+    display:inline;
+    vertical-align:middle ;
     }
 
     #mainbox-left img {
     width: 100%;
     }
-
 
 
 body {
@@ -58,36 +42,20 @@ body {
 
 
   .container{
+    border-radius: 0px 0px 10px 10px;
     padding: 30px;
     background-color: white;
     margin-bottom: 40px; 
-    }
+}
 
 
-    #main.container {
+    #nav {
+    border-radius: 10px 10px 0px 0px;
     padding: 20px 30px 10px 30px;
     background-color: white;
     margin: 50px 0px 3px 0px;  
-    }
-
-
-
-
-.regular-button{
-    padding: 5px 10px ;
-    border-radius: 5px;
 }
-    #button-1 {
-    color: white;
-    border: none;
-    background-color:  #47adf1;
-    }
 
-   #button-2 {
-    color:gray;
-    border: 1px solid lightgray;
-    background-color: white;
-    }
 
 
 ul li{ 
@@ -107,6 +75,24 @@ ul li{
     padding-right: 8px;
     color: #d863a1;
     }
+
+
+    .regular-button{
+        padding: 5px 10px ;
+        border-radius: 5px;
+    }
+        #button-1 {
+        color: white;
+        border: none;
+        background-color:  #47adf1;
+        }
+    
+       #button-2 {
+        color:gray;
+        border: 1px solid lightgray;
+        background-color: white;
+        }
+
 
   .fancy-button{
     font-size: 10px;
